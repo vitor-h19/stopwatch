@@ -1,0 +1,92 @@
+@font-face {font-family: 'clock'; src: url('lib/fonts/clock.ttf') format('truetype');}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+  background: #202225;
+}
+header{
+  width: 100%;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  padding: 3px;
+  margin-bottom: 5px;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+main{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background: #202225da;
+  padding: 10px;
+  border-radius: 8px;
+  position: fixed;
+}
+h1{
+  font-family: 'clock';
+  font-size: 68px;
+  color: rgba(255, 255, 255, 0.952);
+  text-shadow:
+    2px 2px 6px rgb(37, 37, 199),
+    -2px -2px 6px rgb(37, 37, 199);
+}
+i{
+  font-size: 24px;
+}
+button{
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0px 0px 8px #000000;
+}
+#start{
+  background: rgb(28, 238, 28);
+}
+#start:hover{
+  background: rgb(87, 255, 87);
+  color: #f4f4f4;
+}
+#pause{
+  background: rgb(134, 134, 134);
+  margin-left: 10px;
+}
+#pause:hover{
+  background: rgb(80, 80, 80);
+  color: #f4f4f4;
+}
+#stop{
+  background: rgb(255, 0, 0);
+  margin-left: 10px;
+}
+#stop:hover{
+  background: rgb(184, 28, 28);
+  color: #f4f4f4;
+}
+#lap{
+  background: rgb(5, 5, 161);
+  margin-left: 10px;
+}
+#lap:hover{
+  background: rgb(29, 29, 223);
+  color: #f4f4f4;
+}
+#lapList{
+  margin-top: 160px;
+}
+article{
+  border-top: 1px solid #f4f4f4a9;
+  border-bottom: 1px solid #f4f4f4a9;
+  background: #02020279;
+  color: #f4f4f4;
+  font-family: 'clock';
+  font-size: 24px;
+  padding: 5px;
+  text-align: center;
+}
